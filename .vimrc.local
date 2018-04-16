@@ -1,0 +1,4 @@
+#add to vimrc if not provided
+#if filereadable(glob("~/.vimrc.local"))
+  #source ~/.vimrc.local
+#endif

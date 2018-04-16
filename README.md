@@ -5,10 +5,10 @@
 There are multiple ways to use this repository:
 - source the local config files in your "main" configs (`source ~/.local-configs/.zshrc.local`)
 - symlink the needed local config files so they are located where most configs would look for them (`ln -s ~/.local-configs/.zshrc.local ~/.zshrc.local`)
-- use it in the ansible galaxy role naglik.dev_user_env_users like this:
+- use it in the ansible galaxy role naglik.unix_user_env_users like this:
   ```
-  - role: naglik.dev-user-env
-    dev_user_env_users:
+  - role: naglik.unix-user-env
+    unix_user_env_users:
       - name: your_unix_username
         comment: 'your comment'
         shell: '/bin/zsh'
