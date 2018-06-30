@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+# tell zsh not to nice background processes to fix the permission problem untill its fixed correctly
+unsetopt BG_NICE
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
