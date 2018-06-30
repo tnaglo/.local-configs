@@ -1,0 +1,8 @@
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+[push]
+  default = matching
+[user]
+  name = Tomasz Naglo
+  email = tomasz@naglo.systems
