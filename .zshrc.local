@@ -65,3 +65,10 @@ function gri() {
   fi
 }
 
+# JiffyBoxes
+alias jb='ssh root@141.0.21.244'
+alias jb2='ssh root@134.119.30.9'
+alias c1='ssh root@j307507.servers.jiffybox.net'
+
+alias ua='ssh root@176.57.128.102 -p 6928'
+alias bora='ssh tnaglo@bora.domainfactory.de -p 24'

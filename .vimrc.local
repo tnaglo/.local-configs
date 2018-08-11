@@ -1,7 +1,7 @@
 " set up vundle
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 Plugin 'gmarik/vundle'
 
@@ -44,6 +44,11 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/ctags.vim--Johnson'
+
+"react development
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'w0rp/ale'
 
 """""""private settings"""""""
 syntax on "enable syntax-hiliting
