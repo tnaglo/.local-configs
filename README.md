@@ -1,12 +1,20 @@
 # .local-configs
+
 .tmux.conf.local .zshrc.local .vimrc.local
 
-# Usage
+## ToDo
+
+- [ ] Switch to new role (TDB) instead of [tnaglo.ansible_role_unix_user_env](https://galaxy.ansible.com/tnaglo/ansible_role_unix_user_eqnv)
+
+## Usage
+
 There are multiple ways to use this repository:
+
 - source the local config files in your "main" configs (`source ~/.local-configs/.zshrc.local`)
 - symlink the needed local config files so they are located where most configs would look for them (`ln -s ~/.local-configs/.zshrc.local ~/.zshrc.local`)
 - use it in the ansible galaxy role tnaglo.unix_user_env_users like this:
-  ```
+
+  ```yaml
   - role: tnaglo.unix-user-env
     unix_user_env_users:
       - name: your_unix_username
