@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+FOLDERS_TO_REMOVE="/mnt/c/.*"
+export PATH=$( echo ${PATH} | tr -s ":" "\n" | grep -vwE "(${FOLDERS_TO_REMOVE})" | tr -s "\n" ":" | sed "s/:$//" )
 
 # tell zsh not to nice background processes to fix the permission problem untill its fixed correctly
 unsetopt BG_NICE
