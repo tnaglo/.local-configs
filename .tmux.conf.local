@@ -270,3 +270,4 @@ set -g mouse on
 
 bind -r C-p previous-window # select previous window
 bind -r C-n next-window     # select next window
+bind e setw synchronize-panes
